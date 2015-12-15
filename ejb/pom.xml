@@ -6,13 +6,13 @@
     <artifactId>test</artifactId>
     <version>1.0</version>
   </parent>
-  <artifactId>test-tools</artifactId>
-  <packaging>jar</packaging>
+  <artifactId>test-ejb</artifactId>
+  <packaging>ejb</packaging>
   <name>${project.artifactId}</name>
   <dependencies>
-	</dependencies>
-  <build>
-    <plugins>
-		</plugins>
-  </build>
+    <dependency>
+      <groupId>be.tuto</groupId>
+      <artifactId>test-tools</artifactId>
+    </dependency>
+  </dependencies>
 </project>

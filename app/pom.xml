@@ -15,7 +15,6 @@
       <artifactId>test-ejb</artifactId>
       <type>ejb</type>
       <version>1.0</version>
-      <classifier>jar-with-dependencies</classifier>
     </dependency>
   </dependencies>
   <build>
@@ -27,7 +26,6 @@
             <ejbModule>
               <groupId>be.tuto</groupId>
               <artifactId>test-ejb</artifactId>
-              <classifier>jar-with-dependencies</classifier>
               <bundleFileName>toto.jar</bundleFileName>
             </ejbModule>
           </modules>
